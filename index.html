@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8">    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">    
         <title>
         Startup-Me - Apps para sua empresa
         </title>
         <style>
-            h1 {
-                
+            
+            
+            main{}
+            
+            
+            body{ margin: 0;
+            }
+            
+            
+            h1 { font-family: 'Open Sans', sans-serif;
+                 font-size: 350%;
+                 font-weight: bold;
+                 color: white;
+                 text-transform: uppercase;
+                 text-align: center;
+                 letter-spacing: -0.1em;
+                 word-spacing: 0.1em;
+
+                 
                }
             
+            .inicio
+                { font-family: Helvetica, sans-serif;
+                  font-weight:50%;
+                  font-style: italic;
+                  font-size: 200%;
+                  color: white;
+                  text-align: center;
+            }
+            
+            h3{ font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                color: gold;
+                text-transform: uppercase;
+                text-align: center;
+                word-spacing: 0.1em;
+                
+            }
+            
+            h4{ font-family: 'Open Sans', sans-serif;
+                font-size: 120%;
+                font-weight: bold;
+                text-align: center;
+                
+            }
+            
+            h5{ font-family: serif;
+                font-size: 85%;
+                color: gold;
+            
+            
+            }
+            
+            h6{ margin-top: 0px;
+            }
+            
+            
+            p{ font-family: 'Open Sans', sans-serif;
+                font-size: 100%;
+                color: darkgray;
+                text-align: center;    
+            }
             
             ul {
                 margin: 0; padding: 0;
@@ -26,8 +85,67 @@
                 margin-left: 5px;
                 color: #FFF;           
                 }
+            
+            #navegacao{
+                    font-family: 'Open Sans', sans-serif;
+                    text-align: center;
+                
+            }
+            
+            
+            .menu{ font-family: 'Open Sans', sans-serif;
+                   color: white;
+                   text-align: right;    
+            }
+            
+            .pontosdeInteresse{
+                        font-family: 'Open Sans', sans-serif;
+                        font-weight: 100;
+                        text-align: center;
+                        float: left;
+                        margin-right: 50px;
+                        padding: 5px
+                        
+            }
+            
+            #contato{
+                    font-family: 'Open Sans', sans-serif;
+                    text-align: center;
+                    clear: left;
+            }
         
-        
+            .profissionais{
+                    font-family:Semibold, Bold, Extrabold, 'Open Sans', sans-serif;
+                    margin: 35px;
+                    padding: 5px;
+                    text-align: center;
+                    float: right;
+                    clear: left;
+                }
+            
+            .recursos{
+                    font-family: 'Open Sans', sans-serif;
+                    text-align: left;
+                    float: right;
+                    margin-right: 10px;
+                   
+            }
+            
+            
+            .aparelhos{ font-family: 'Open Sans', sans-serif;
+                        
+                
+            }
+            
+            
+            .selos{ float: right;
+                    margin: 10px;
+            
+            }
+            
+        <!-- Bira não estou conseguindo usar a outra fonte-->
+            
+            
         </style>
     </head>
    
@@ -59,9 +177,9 @@
             </nav>    
     <article>        
     <header>        
-        <h2>Bem vindo ao nosso estúdio</h2>
+        <h3 class="inicio">Bem vindo ao nosso estúdio</h3>
 
-        <h1>Crie agora seu app para sua empresa</h1>
+        <h1>Crie agora seu app para sua <br> empresa</h1>
     </header>   
     </article>        
 <h3>Sua empresa ao alacance das mãos dos seus clientes</h3>               
@@ -72,54 +190,54 @@
 <h4>Já criamos aplicativos para diversos seguimentos</h4>
             
             
-            <div id="apoio">
-                <section class="foto_apoio">
+            
+                <section class="pontosdeInteresse">
                 <img src="../images/airplane.svg">
             <h6>Viagens e<br>Turismo</h6>
             </section>
-            </div>
+            
                 
-            <div id="apoio">
-                <section class="foto_apoio">
+            
+                <section class="pontosdeInteresse">
                 <img src="../images/field.svg">
             <h6>Esportes e<br>fitness</h6> 
                     </section>    
-            </div> 
+            
                  
-            <div id="apoio">
-                <section class="foto_apoio">
+          
+                <section class="pontosdeInteresse">
                 <img src="../images/services.svg">
             <h6>Prestação de<br> Serviços</h6>
                     </section>
-            </div>
+            
                  
-            <div id="apoio">
-                <section class="foto_apoio">
+            
+                <section class="pontosdeInteresse">
                 <img src="../images/chief-hat.svg">
             <h6>Bares e<br> Restaurantes</h6>
                     </section>
-            </div>
+            
                 
-            <div id="apoio"> 
-                <section class="foto_apoio">
+             
+                <section class="pontosdeInteresse">
                 <img src="../images/bag.svg">
             <h6>E-commerce e<br> lojas fisicas</h6>
                     </section>
-            </div>
+            
                 
-            <div id="apoio"> 
-                <section class="foto_apoio">
+             
+                <section class="pontosdeInteresse">
                 <img src="../images/student.svg">
             <h6>Educação e<br> Treinamentos</h6>
                     </section>
-            </div>
+            
                 
             
 
         <h6>Seu ramo de atuação não está por aqui?<br> Entre em contato, certamente podemos te ajudar.</h6>
     
             
-            <div id="navegacao">
+            <div id="contato">
             <ul>
             <li><a href="entrar-em-contato.html">Entrar em contato</a></li>
             
@@ -128,58 +246,54 @@
 
     <article>
 <h4>Pessoas incriveis trabalhando juntas para obter melhor resultado</h4>
-<p>Estas são algumas pessoas que fazerm parte do nosso experiente time que compoe a StartUp-Me.</p>
+<p>Estas são algumas pessoas que fazerm parte do nosso experiente time que compoe a <strong>StartUp-Me.</strong></p>
 
             
-               <div id="apoio">
+              
                    
-                 <section class="foto_apoio"> 
+                 <section class="profissionais"> 
                    <img src="../images/joao-ricardo-b-sutter.jpg" width="90"; height="90"; alt="João Ricardo B. Sutter";style="margin-bottom: 10px;">
                    <strong>João Ricardo B.<br>Sutter</strong>
-                     <h6 style="margin-top: inherit; color: darkgray">Fullstack Developer</h6>
+                     <h6 style="color: darkgray">Fullstack Developer</h6>
                    </section>
-                </div>
-        
-       
+                
 
-               <div id="apoio">
-                   <section class="foto_apoio">
+                   <section class="profissionais">
                    <img src="../images/patricia-mascarenhas.jpg"; width="90"; height="90"; alt="Patricia Mascarenhas";
                     style="margin-bottom: 10px;"; >
                     <strong>Patrícia<br>Mascarenhas</strong>
-                    <h6 style="margin-top: inherit; color: darkgray">UX/ UI Especialist</h6>
+                    <h6 style=" color: darkgray">UX/ UI Especialist</h6>
                        </section>
-                </div>
-
-              <div id="apoio">
-                   <section class="foto_apoio">
+            
+              
+                   <section class="profissionais">
                   <img src="../images/miguel-dos-santos-arcanjo.jpg"; width="90"; height="90"; alt="JMiguel dos Santos Arcanjo";style="margin-bottom: 10px;">
                   <strong>Miguel dos Santos<br>Arcanjo</strong>
-                  <h6 style="margin-top: inherit; color: darkgray">Senior Designer</h6>
+                  <h6 style=" color: darkgray">Senior Designer</h6>
                     </section>
-              </div>
+              
         
 
-                 <div id="">
-                      <section class="foto_apoio">
+                    <section class="profissionais">
                      <img src="../images/jean-carlos-madeiro.jpg"; width="90"; height="90"; alt="Jean Carlos Madeiro";style="margin-bottom: 10px;">
                      <strong>Jean Carlos<br>Madeiro</strong>
-                     <h6 style="margin-top: inherit; color: darkgray"> Project Manager</h6>
+                     <h6 style=" color: darkgray"> Project Manager</h6>
                          </section>
-                </div>
+                
          
             </article>    
             
-<h3>Porque a <strong>Startup-Me</strong> é a melhor escolha para seu app?</h3>
+<h3>Porque a <bold>Startup-Me</bold> é a melhor escolha para seu app?</h3>
 <p>Os Apps na StartUp-Me segue os padões atuais para desenvolvimento mobile, juntamente com<br> metodologias ágeis. todos os projetos incluem análise de viabilidade de mercado, concepção<br> de User Interface e User experience, Criação Gráfica e Plano de Marketing, sempre buscando o<br> maior nível de engajamentos dos clientes. Aliando o melhor custo/ prazo/ benefício.</p>
 
  
             
-   <article> 
+   <article class="recursos"> 
         
-      <div id=""> 
-          <img src="../images/native-resources.png"; width="200"; height="125"; style="float: right;margin-right: 10px">
-     </div>  
+        <section class="recursos">
+          <img src="../images/native-resources.png"; width="300"; height="175";>
+        </section>    
+       
  <h4>Extraímos o máximo dos aparelhos<br> utilizando os recursos nativos</h4>
        <p>Nossos Apps se integram com as funcionalidades e <br> 
         recursos nativos dos seu aparellho como: Câmera, GPS,<br> Galeria de fotos, Áudio e Vídeo, Calendários, Lista de <br>contatos, potencializamos uso do Acelerômetro, do<br> Giroscópio e muito mais!</p>
@@ -190,30 +304,32 @@
         
         <article>    
             
-        <div id=""> 
-            <img src="../images/smartphones.png"; width="200"; height="250 "; style="float: left; margin-right: 10px"> 
-        </div>    
+        <section class="aparelhos"> 
+            <img src="../images/smartphones.png"; width="200"; height="250 ";> 
+         
 <h4>Desenvolvemos apps para todas<br> 
     as plataformas mobile, compatível<br>
     com todos os celulares e dispositivos<br>
     móvies</h4>
 <p>Todos os Apps produzidos por nós da StartUp-Me são<br> multi-plataforma, funcionam em aparelhos com IOS<br>(iPhone/ iPad), Android, Windows Phone e FirefoxOS.</p>
             
-            <div id="">
+            </section>
+            
+                <section class="selos">
                 <img src="../images/icon-apple-ios.png" width="40"; height="40" style="margin-left: 20px ">
-            </div>
             
-            <div id="">
+            
+            
                 <img src="../images/icon-android.png" width="40"; height="40" style="margin-left: 20px ">
-            </div>    
+                
             
-            <div id="">
+            
                  <img src="../images/icon-windows-phone.png" width="40"; height="40" style="margin-left: 20px">
-            </div>
             
-            <div id="">
+            
+            
                 <img src="../images/incon-firefox-os.png" width="40"; height="40" style="margin-left: 20px ">
-            </div>    
+                </section>
             
         </article>    
             
@@ -243,7 +359,9 @@
     
             <label for="Mensagem">Mensagem</label>
             <input type="text"; id="mensagem"; name="Mensagem", width="300"; height="200">
-    
+            
+            <input type="submit"; id="botao"; value="">
+            
         </form> 
 
     <div id="">
