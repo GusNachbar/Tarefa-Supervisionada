@@ -2,478 +2,222 @@
 <html lang="pt-BR">
     <head>
     <meta charset="utf-8">    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Noto+Serif+SC" rel="stylesheet">   
         <title>
         Startup-Me - Apps para sua empresa
         </title>
-        <style>
-            
-            
-            main{ width: 900px;
-                  margin: 0 auto;
-                          
-            }
-            
-            
-            body{ margin: 0;
-            }
-            
-            #janela1{
-                
-                width: 900px;
-                
-            }
-            
-            #janela2{
-                background-color: rgb(245,245,245);
-                width: 900px;
-            }
-            
-            #janela3{
-                width: 900px;
-            }
-            
-             #janela4{
-                width: 900px;
-            }
-            
-            h1 { font-family: 'Open Sans', sans-serif;
-                 font-size: 350%;
-                 font-weight: bold;
-                 color: white;
-                 text-transform: uppercase;
-                 text-align: center;
-                 letter-spacing: -0.1em;
-                 word-spacing: 0.1em;
- 
-               }
-            
-            .inicio
-                { font-family: Georgia, "Time Nws Roman", serif;
-                  font-weight:50%;
-                  font-style: italic;
-                  font-size: 200%;
-                  color: white;
-                  text-align: center;
-            }
-            
-            h3{ font-family: 'Open Sans', sans-serif;
-                font-weight: bold;
-                color: gold;
-                text-transform: uppercase;
-                text-align: center;
-                word-spacing: 0.1em;
-                
-            }
-            
-            h4{ font-family: 'Open Sans', sans-serif;
-                font-size: 120%;
-                font-weight: bold;
-                text-align: center;
-                
-            }
-            
-            h5{ font-family: serif;
-                font-size: 85%;
-                color: gold;
-            
-            }
-            
-            h6{ text-align: center;
-            }
-            
-            
-            p{ font-family: 'Open Sans', sans-serif;
-                font-size: 100%;
-                color: darkgray;
-                text-align: center;    
-            }
-            
-            ul {
-                margin: 0; padding: 0;
-            }
-            li {
-                list-style: none;
-                display: inline-block;
-                
-            }
-            li a {
-                text-decoration: none;
-                display: block;
-                background-color: gold;
-                padding: 5px 3px;
-                color: #FFF;
-                border-style:solid;
-                }
-            
-            #navegacao{
-                    width: 100px;
-                    font-family: 'Open Sans', sans-serif;
-                    text-align: center;
-            }
-            
-         
-            .menu{ font-family: 'Open Sans', sans-serif;
-                   color: white;
-                   text-align: right;
-                   background-color: none; 
-            }
-            
-            .pontosdeInteresse1{
-                        font-family: 'Open Sans', sans-serif;
-                        width: 139px;
-                        text-align: center;
-                        float: left;
-                        padding: 0.5px;
-            }
-            
-            .pontosdeInteresse2{
-                        font-family: 'Open Sans', sans-serif;
-                        width: 139px;
-                        text-align: center;
-                        float: left;
-                        padding: 0.5px;
-            }
-            
-            .pontosdeInteresse3{
-                        font-family: 'Open Sans', sans-serif;
-                        width: 139px;
-                        text-align: center;
-                        float: left;
-                        padding: 0.5px;
-            }
-            
-            .pontosdeInteresse4{
-                        font-family: 'Open Sans', sans-serif;
-                        width: 139px;
-                        text-align: center;
-                        float: left;
-                        padding: 0.5px;
-            }
-            
-            .pontosdeInteresse5{
-                        font-family: 'Open Sans', sans-serif;
-                        width: 139px;
-                        text-align: center;
-                        float: left;
-                        padding: 0.5px;
-            }
-            
-            .pontosdeInteresse6{
-                        font-family: 'Open Sans', sans-serif;
-                        width: 139px;
-                        text-align: center;
-                        float: left;
-                        padding: 0.5px;
-            }
-            
-            section.textoContato{
-                width: 900px;
-                font-family:'Open Sans', sans-serif;
-                font-size: 120%;
-                text-align: center;
-                line-height:1.2em;
-                color: darkgray;
-                clear: both;
-            }
-            
-            #contato{
-                    font-family: 'Open Sans', sans-serif;
-                    text-align: center;
-                    clear: left;
-            }
-            
-        
-            .profissionais1{
-                    font-family:Semibold, Bold, Extrabold, 'Open Sans', sans-serif;
-                    padding: 10px;
-                    text-align: center;
-                    float: right;
-                }
-            .profissionais2{
-                font-family:Semibold, Bold, Extrabold, 'Open Sans', sans-serif;
-                    padding: 10px;
-                    text-align: center;
-                    float: right;
-            }
-            .profissionais3{
-                font-family:Semibold, Bold, Extrabold, 'Open Sans', sans-serif;
-                padding: 10px;
-                text-align: center;
-                float: right;
-            }
-            .profissionais4{
-                font-family:Semibold, Bold, Extrabold, 'Open Sans', sans-serif;
-                padding: 10px;
-                text-align: center;
-                float: right;
-            }
-            .recursos{
-                    font-family: 'Open Sans', sans-serif;
-                    text-align: left;
-                    margin-right:10px;
-                    width:900px; 
-                   
-            }
-            section.recursos img {
-                float: right;
-            }
-            
-            
-            .aparelhos{ font-family: 'Open Sans', sans-serif;
-                        width: 900px;
-                        text-align: left;
-                        margin-left: 10px 
-            }
-            section.aparelhos img{
-                    float: left;
-            }
-            
-            .selos{ float: right;
-                    margin: 10px;
-            
-            }
-            
-        <!-- Bira não estou conseguindo usar a outra fonte-->
-            
-            
-        </style>
+        <link href="css/style.css" rel="stylesheet">
     </head>
    
-    <body>
+        <body>
         
-        <main>
+            <main>
         
-        <header>
-           <img src="../images/startup-me_logo.png" alt="Logo Startup-Me" width="120" height="30"; alt="Logotipo da Startu-Me">
-            <img src="../images/bg-header.jpg" width="1000" height="400">
+                <header>
             
-            
-            <div id="navegacao">
-        <ul>
-            <li><a href="saiba-mais.html">Saiba Mais</a></li>
+                    <nav>
+                            <a href="images/startup-me_logo.png"></a>
+                        <ul class="menu">
+                            <li><a href="home.html">Home</a> </li>    
+                            <li><a href="sobre.hmtl">Sobre</a></li>    
+                            <li><a href="apps.html">Apps</a></li>    
+                            <li><a href="#contato">Contato</a></li>
+
+                        </ul>
+                    </nav>  
                 
-        </ul>
-            </div>    
-        </header>
+                    <div class="container">          
+                        <span>Bem vindo ao nosso estúdio</span>
+                        <h1>Crie agora seu app para sua empresa</h1>
+                        <a href="#saiba">Saíba Mais</a>
+                    </div>
+            </header>   
+    
             
-            <nav id="menu">
-            <ul class="menu">
-                <li><a href="home.html">Home</a> </li>    
-                <li><a href="sobre.hmtl">Sobre</a></li>    
-                <li><a href="apps.html">Apps</a></li>    
-                <li><a href="contato.html">Contato</a></li>
+                <section id="saiba"> 
+                    <article>
+                            <h2>Sua empresa ao alacance das mãos dos seus clientes</h2>               
+                            <p>Nós da <strong>StartUp-Me</strong> contectamos o seu serviço ou produto com seu cliente, através de Apps Mobile<br> 
+                            para Smartphones e Tablets, desenvolvemos para sua empresa com a sua cara da sua empresa,<br> 
+                            para você pensar apenas no seu negócio e deixar o desenvolvimento com a gente.</p>
 
-            </ul>
-            </nav>    
-    <article>        
-    <header>        
-        <h3 class="inicio">Bem vindo ao nosso estúdio</h3>
-
-        <h1>Crie agora seu app para sua <br> empresa</h1>
-    </header>   
-    </article> 
-            
- <div id="janela1">            
-<h3>Sua empresa ao alacance das mãos dos seus clientes</h3>               
-<p>Nós da <strong>StartUp-Me</strong> contectamos o seu serviço ou produto com seu cliente, através de Apps Mobile<br> 
-    para Smartphones e Tablets, desenvolvemos para sua empresa com a sua cara da sua empresa,<br> 
-    para você pensar apenas no seu negócio e deixar o desenvolvimento com a gente.</p>
-
-<h4>Já criamos aplicativos para diversos seguimentos</h4>
+                            <h3>Já criamos aplicativos para diversos seguimentos</h3>
             
             
             
-                <section class="pontosdeInteresse1">
-                <img src="../images/airplane.svg" width="50" height="50" alt="Imagem avião">
-            <h6>Viagens e<br>Turismo</h6>
-            </section>
+                        <section class="pontosdeInteresse1">
+                            <img src="../images/airplane.svg" alt="Imagem avião">
+                            <h6>Viagens e<br>Turismo</h6>
+                        </section>
             
                 
             
-                <section class="pontosdeInteresse2">
-                <img src="../images/field.svg"width="50" height="50" alt="Imagem campo">
-            <h6>Esportes e<br>fitness</h6> 
-                    </section>    
+                        <section class="pontosdeInteresse2">
+                            <img src="../images/field.svg" alt="Imagem campo">
+                            <h6>Esportes e<br>fitness</h6> 
+                        </section>    
             
                  
           
-                <section class="pontosdeInteresse3">
-                <img src="../images/services.svg"width="50" height="50" alt="Imagem serviços">
-            <h6>Prestação de<br> Serviços</h6>
-                    </section>
+                        <section class="pontosdeInteresse3">
+                            <img src="../images/services.svg" alt="Imagem serviços">
+                            <h6>Prestação de<br> Serviços</h6>
+                        </section>
             
                  
             
-                <section class="pontosdeInteresse4">
-                <img src="../images/chief-hat.svg"width="50" height="50" alt="Imagen Chief">
-            <h6>Bares e<br> Restaurantes</h6>
-                    </section>
+                        <section class="pontosdeInteresse4">
+                            <img src="../images/chief-hat.svg" alt="Imagen Chief">
+                            <h6>Bares e Restaurantes</h6>
+                        </section>
             
                 
              
-                <section class="pontosdeInteresse5">
-                <img src="../images/bag.svg"width="50" height="50" alt="Imagem de sacola">
-            <h6>E-commerce e<br> lojas fisicas</h6>
-                    </section>
+                        <section class="pontosdeInteresse5">
+                            <img src="../images/bag.svg" alt="Imagem de sacola">
+                            <h6>E-commerce e lojas fisicas</h6>
+                        </section>
             
-                
+                 
              
-                <section class="pontosdeInteresse6">
-                <img src="../images/student.svg"width="50" height="50" alt="Imagem de estudante">
-            <h6>Educação e<br> Treinamentos</h6>
-                    </section>
+                        <section class="pontosdeInteresse6">
+                            <img src="../images/student.svg" alt="Imagem de estudante">
+                            <h6>Educação e Treinamentos</h6>
+                        </section>
             
-                
+                            <p>Seu ramo de atuação não está por aqui? Entre em contato, certamente podemos te ajudar.</p>
+         
+                            <a href="entrar-em-contato.html">Entrar em contato</a>
+                </article>     
             
-    <section class="textoContato">    
-        <h6>Seu ramo de atuação não está por aqui?<br> Entre em contato, certamente podemos te ajudar.</h6>
-    </section>
-            
-            <div id="contato">
-            <ul>
-            <li><a href="entrar-em-contato.html">Entrar em contato</a></li>
-            
-            </ul>
-            </div>
-  </div>
-        
-            
-     <div id="janela2">   
-<h4>Pessoas incriveis trabalhando juntas para obter melhor resultado</h4>
-<p>Estas são algumas pessoas que fazerm parte do nosso experiente time que compoe a <strong>StartUp-Me.</strong></p>
-
-            
-              
-                   
+                <article>     
+                    <h3>Pessoas incriveis trabalhando juntas para obter melhor resultado</h3>
+                    <p>Estas são algumas pessoas que fazerm parte do nosso experiente time que compoe a <strong>StartUp-Me.</strong></p>
+                </article>
+     
+     
                  <section class="profissionais1"> 
-                   <img src="../images/joao-ricardo-b-sutter.jpg" width="90"; height="90"; alt="João Ricardo B. Sutter";style="margin-bottom: 10px;">
-                   <strong>João Ricardo B.<br>Sutter</strong>
-                     <h6 style="color: darkgray">Fullstack Developer</h6>
-                   </section>
+                        <img src="../images/joao-ricardo-b-sutter.jpg" alt="João Ricardo B. Sutter">
+                        <bold>João Ricardo B.Sutter</bold>
+                        <h6>Fullstack Developer</h6>
+                 </section>
                 
 
                    <section class="profissionais2">
-                   <img src="../images/patricia-mascarenhas.jpg"; width="90"; height="90"; alt="Patricia Mascarenhas";
-                    style="margin-bottom: 10px;"; >
-                    <strong>Patrícia<br>Mascarenhas</strong>
-                    <h6 style=" color: darkgray">UX/ UI Especialist</h6>
-                       </section>
-            
-              
-                   <section class="profissionais3">
-                  <img src="../images/miguel-dos-santos-arcanjo.jpg"; width="90"; height="90"; alt="JMiguel dos Santos Arcanjo";style="margin-bottom: 10px;">
-                  <strong>Miguel dos Santos<br>Arcanjo</strong>
-                  <h6 style=" color: darkgray">Senior Designer</h6>
+                        <img src="../images/patricia-mascarenhas.jpg" alt="Patricia Mascarenhas">
+                        <bold>Patrícia Mascarenhas</bold>
+                        <h6>UX/ UI Especialist</h6>
                     </section>
-              
-        
-
-                    <section class="profissionais4">
-                     <img src="../images/jean-carlos-madeiro.jpg"; width="90"; height="90"; alt="Jean Carlos Madeiro";style="margin-bottom: 10px;">
-                     <strong>Jean Carlos<br>Madeiro</strong>
-                     <h6 style=" color: darkgray"> Project Manager</h6>
-                         </section>
-                
-         
-           </div>    
-        
-    <div id="janela3">    
-            
-<h3>Porque a <bold>Startup-Me</bold> é a melhor escolha para seu app?</h3>
-<p>Os Apps na StartUp-Me segue os padões atuais para desenvolvimento mobile, juntamente com<br> metodologias ágeis. todos os projetos incluem análise de viabilidade de mercado, concepção<br> de User Interface e User experience, Criação Gráfica e Plano de Marketing, sempre buscando o<br> maior nível de engajamentos dos clientes. Aliando o melhor custo/ prazo/ benefício.</p>
-
- 
-        
-    <section class="recursos">
-          <img src="../images/native-resources.png"; width="200"; height="125";>
-            
-       
- <h4>Extraímos o máximo dos aparelhos<br> utilizando os recursos nativos</h4>
-       <p>Nossos Apps se integram com as funcionalidades e <br> 
-        recursos nativos dos seu aparellho como: Câmera, GPS,<br> Galeria de fotos, Áudio e Vídeo, Calendários, Lista de <br>contatos, potencializamos uso do Acelerômetro, do<br> Giroscópio e muito mais!</p>
-    </section> 
-</div>   
-        
-        
-    <div id="janela4">      
-            
-        <section class="aparelhos"> 
-            <img src="../images/smartphones.png"; width="200"; height="250 ";> 
-         
-<h4>Desenvolvemos apps para todas<br> 
-    as plataformas mobile, compatível<br>
-    com todos os celulares e dispositivos<br>
-    móvies</h4>
-<p>Todos os Apps produzidos por nós da StartUp-Me são<br> multi-plataforma, funcionam em aparelhos com IOS<br>(iPhone/ iPad), Android, Windows Phone e FirefoxOS.</p>
-            
-            </section>
-            
-                <section class="selos">
-                <img src="../images/icon-apple-ios.png" width="40"; height="40" style="margin-left: 20px ">
-            
-            
-            
-                <img src="../images/icon-android.png" width="40"; height="40" style="margin-left: 20px ">
-                
-            
-            
-                 <img src="../images/icon-windows-phone.png" width="40"; height="40" style="margin-left: 20px">
-            
-            
-            
-                <img src="../images/incon-firefox-os.png" width="40"; height="40" style="margin-left: 20px ">
-                </section>
-            
-        </div>    
-            
-<footer>
-        <h3>Entre em contato conosco</h3>
-        <p>Preencha o formulário abaixo e nos envie um orçamento, utilize também<br> 
-        para nos enviar dúvidas e/ ou sugestões.</p>
-    
-        <form action="destino.php"; method="pot">
-    
-            <label for="Nome">Nome*</label>
-            <input type="text"; id="Nome"; name="Nome"; required>
-            
-            <label for="E-mail">E-mail*</label>
-            <input type="text"; id:="email"; name="email; required">
-            
-            <label for="Telefone">Telefone</label>
-            <input type="text"; id="telefone"; name="Telefone">
-            
-            <select name="o_que_deseja", id="o_que_deseja">
-            
-            <option value="1">Criar app</option>
-            <option value="2">Trabalhe Conosco</option>
-            <option value="3">Agendar Consultoria</option>
-            
-            </select>
-    
-            <label for="Mensagem">Mensagem</label>
-            <input type="text"; id="mensagem"; name="Mensagem", size="900" width="300"; height="200">
-            
-            <input type="submit"; id="botao"; value="">
-            
-        </form> 
-
-    <div id="">
-        <img src="../images/bg-footer.jpg" width="1000"; height="400">
-    </div>
-    
-    <h5>StartUp-Me Desenvolvimento de Software</h5>
+     
    
+                   <section class="profissionais3">
+                        <img src="../images/miguel-dos-santos-arcanjo.jpg" alt="JMiguel dos Santos Arcanjo">
+                        <bold>Miguel dos Santos Arcanjo</bold>
+                        <h6>Senior Designer</h6>
+                   </section>
+     
+           
+                    <section class="profissionais4">
+                            <img src="../images/jean-carlos-madeiro.jpg" alt="Jean Carlos Madeiro">
+                            <bold>Jean Carlos Madeiro</bold>
+                            <h6> Project Manager</h6>
+                    </section>
+                
+         
+         
+        
+                    <section class="janela3">    
+            
+                            <h3>Porque a <strong>Startup-Me</strong> é a melhor escolha para seu    app?</h3>
+                            <p>Os Apps na StartUp-Me segue os padões atuais para desenvolvimento mobile, juntamente com<br> metodologias ágeis. todos os projetos incluem análise de viabilidade de mercado, concepção<br> de User Interface e User experience, Criação Gráfica e Plano de Marketing, sempre buscando o<br> maior nível de engajamentos dos clientes. Aliando o melhor custo/ prazo/ benefício.</p>
+       
+                            <h4>Extraímos o máximo dos aparelhos utilizando os      recursos nativos</h4>
+                            <p>Nossos Apps se integram com as funcionalidades e            <br> 
+                            recursos nativos dos seu aparellho como: Câmera, GPS,       <br> Galeria de fotos, Áudio e Vídeo, Calendários, Lista de <br>contatos, potencializamos uso do Acelerômetro, do<br> Giroscópio e muito mais!</p> 
+        
+                            <img src="../images/native-resources.png"; alt="Native resources">
+        
+                    </section>   
+        
+        
+                    <section class="janela4">      
+            
+                 
+         
+                            <h4>Desenvolvemos apps para todas 
+                            as plataformas mobile, compatível
+                            com todos os celulares e dispositivos
+                            móvies</h4>
+                            <p>Todos os Apps produzidos por nós da StartUp-Me são<br> multi-plataforma, funcionam em aparelhos com IOS<br>(iPhone/ iPad), Android, Windows Phone e FirefoxOS.</p>
+        
+                            <img src="../images/smartphones.png"; alt="Smatphones">    
+            
+            
+                        <article class="selos">
+                                <img src="../images/icon-apple-ios.png">
+            
+                                <img src="../images/icon-android.png">
+                
+                                <img src="../images/icon-windows-phone.png">
+            
+                                <img src="../images/incon-firefox-os.png">
+                        </article>
+            
+                    </section>     
+            
+
+                    <section class="rodape">
+                                <h3>Entre em contato conosco</h3>
+                                <p>Preencha o formulário abaixo e nos envie um orçamento, utilize também<br> 
+                                para nos enviar dúvidas e/ ou sugestões.</p>
     
-    <p >Av. Paulista, 1374 - Bela Vista, São Paulo - SP Conj 01 Sala 107 - CEP 01311-300</p>
-    <adress> E-mail:<a href="contato@startup-me.com.br">contato@startup-me.com.br</a></adress>
-    <adress >Telefone: 11 4178 7256 </adress>
-    <img src="../images/startup-me_logo.png" width="70"; height="30">
-    <small>&copy;2015 Startup-Me</small>
-</footer>
+                             <form action="destino.php"; method="">
+    
+                                <label for="Nome">Nome*</label>
+                                <input type="text" id="Nome" name="Nome" required>
             
-    </main>
+                                <label for="E-mail">E-mail*</label>
+                                <input type="text" id:="email" name="email" required>
             
-</body> 
+                                <label for="Telefone">Telefone</label>
+                                <input type="text" id="telefone" name="Telefone">
+            
+                            <select name="O_que_deseja" id="deseja">
+            
+                                <option value="1"; selected>Orçamento</option>
+                                <option value="2">Trabalhe Conosco</option>
+                                <option value="3">Dúvidas</option>
+            
+                            </select>
+    
+                                <label for="Mensagem">Mensagem</label>
+                                <input type="text"; id="mensagem"; name="Mensagem", size="900">
+            
+                                <input type="submit"; id="botao"; value="Enviar">
+            
+                            </form> 
+                    
+                    
+                        <div id="mapa"></div>
+                
+                
+                        <adress id="contato">
+                                StartUp-Me Desenvolvimento de Software
+                                Av. Paulista, 1374 - Bela Vista, São Paulo - SP         Conj 01 Sala 107 - CEP 01311-300
+                                E-mail:<a href="contato@startup-                me.com.br">contato@startup-me.com.br</a>
+                                Telefone: 11 4178 7256 
+                        </adress>
+                    </section>
+     
+     
+            <footer>
+                <img src="../images/startup-me_logo.png">
+                <small>&copy;2015 Startup-Me</small>
+            </footer>
+            
+        </main>
+            
+    </body> 
         
 </html>
