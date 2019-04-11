@@ -27,7 +27,7 @@ margin: 0 auto;
 outline: 1px solid yellow;
 padding: 5px;
 text-align: right;
-height: 165px;
+height: 125px;
 }
 
 .logo{
@@ -192,7 +192,8 @@ border-radius: 5px;
 
 .pessoas{
 margin: 0 auto;
-width: 960px;	
+width: 960px;
+background-color: rgb(245,245,245);
 }
 
 .pessoas h3{
@@ -202,6 +203,7 @@ text-align: center;
 margin: 20px 0 10px 0;
 font-style: bold;
 }
+
 
 .pessoas p{
 font-family:  'Acme', sans-serif;
@@ -215,8 +217,7 @@ margin-bottom: 30px;
 .profisisonais{
 width: 960px;
 margin: 0 auto;
-padding: 25px;
-background-color: rgb(245,245,245);	
+padding: 25px;	
 }
 
 .profissionais img {	
@@ -302,7 +303,7 @@ margin: 0 auto;
 
 .question h3{
 font-family:  'Open Sans', sans-serif;
-font-size: 1.7em;
+font-size: 2em;
 text-transform: uppercase;
 color: gold;
 text-align: center;
@@ -313,7 +314,7 @@ margin: 50px 0 20px 0;
 font-family:  'Acme', sans-serif;
 text-align: center;
 color: darkgrey;
-font-size: 1.4em;
+font-size: 1.5em;
 margin-bottom: 60px;	
 }
 
@@ -332,11 +333,99 @@ font-family:  'Acme', sans-serif;
 text-align: left;
 color: darkgrey;
 font-size: 1.4em;
-margin-top: 20px;	
+margin-top: 15px;
+margin:30px 20px 35px 0;	
 }
 
 .recursos img{
-width: 400px;
-height: 250px;
+width: 350px;
+height: 200px;
 float: right;	
 }
+
+.conteudo{
+width: 60%;
+float:left;	
+}
+
+.native img{
+width: 40%;
+margin: 30px 0 35px 0;	
+}
+
+
+.plataforma{
+width: 960px;
+margin: 0 auto;	
+}
+
+.plataforma h4{
+font-family:  'Open Sans', sans-serif;
+font-size: 1.7em;
+margin-top: 30px;
+}
+
+.plataforma p{
+font-family:  'Acme', sans-serif;
+text-align: right;
+color: darkgrey;
+font-size: 1.4em;
+float: right;
+margin: 30px 20px 35px 20px;	
+}
+
+.plataforma img{
+width: 300px;	
+height:400px;
+float: left;
+}
+
+.producao{
+width: 60%;
+float: right;	
+}
+
+.celulares img{
+width: 40%
+margin: 30px 0 35px 0;	
+}
+
+.selos{
+width: 430;	
+}
+
+.selos img{
+width: 75px;
+height: 75px;
+margin: 20px 25px;
+float: right;	
+}
+
+.duvida{
+width: 960px;
+margin: 0 auto;	
+}
+
+.duvida h3{
+font-family:  'Open Sans', sans-serif;
+font-size: 1.7em;
+color: gold;
+text-transform: uppercase;
+text-align: center;	
+clear: both;
+}
+
+.duvida p{
+font-family:  'Acme', sans-serif;
+text-align: center;
+color: darkgrey;
+font-size: 1.4em;	
+}
+
+.janela{
+background-image: url("../images/bg-footer.jpg")
+height:600px;	
+}
+
+
+
